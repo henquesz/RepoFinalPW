@@ -34,9 +34,7 @@ export class WeatherWidgetMainComponent implements OnInit {
       // lati = resp.lat;
       // console.log(resp.lng);
       // longi =  resp.lng;
-      fetch(
-        `https://api.openweathermap.org/data/2.5/weather?lat=${resp.lat}&lon=${resp.lng}&appid=07bbce9208ba2e983b1c145eb654af71`
-      )
+      fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${resp.lat}&lon=${resp.lng}&appid=07bbce9208ba2e983b1c145eb654af71`)
         .then((response) => response.json())
         .then((data) => {
           this.setWeatherData(data);

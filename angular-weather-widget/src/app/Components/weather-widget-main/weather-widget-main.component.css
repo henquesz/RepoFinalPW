@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100&display=swap');
 #divWeatherMain {
   display: block;
   border-radius: 10px;
@@ -68,15 +69,17 @@ html {
 }
 
 .OssainMain {
-  /* display: flex;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center; */
-  width: 330px;
-  height: 580px;
-  background-color: white;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* background-color: aqua; */
   padding: 5px;
   border-style: 15px;
+  margin-top: 200px;
 }
 .cardTemp {
   display: flex;
